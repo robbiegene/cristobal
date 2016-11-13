@@ -5,6 +5,13 @@ html {
     font: normal 100%/1.4 Georgia,serif;
 }
 
+.masthead {
+    padding: 1em;
+    
+    background-color: #ffffff
+    background-size: cover;
+}
+
 .current {
     background-color: #ffffff;
     
