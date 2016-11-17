@@ -1,9 +1,15 @@
-<nav>
-    <ul class="nav {{include.navclass}}">
-      <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
-      <li><a href="{{site.baseurl}}/reservations.html" class="{% if page.url == '/reservations.html' %}current{% endif %}">Book a table</a></li>
-      <li><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}current{% endif %}">About</a></li>
-      <li><a href="{{site.baseurl}}/menu.html" class="{% if page.url == '/menu.html' %}current{% endif %}">Menu</a></li>
-      <li><a href="{{site.baseurl}}/contact.html" class="{% if page.url == '/contact.html' %}current{% endif %}">Contact</a></li>
-    </ul>
-</nav>
+<header>
+    
+    <div class="logo"></div>
+
+    <nav>
+        <ul class="nav {{include.navclass}}">
+            <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
+            <li><a href="{{site.baseurl}}/reservations.html" class="{% if page.url == '/reservations.html' %}current{% endif %}">Book a table</a></li>
+            <li><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}current{% endif %}">About</a></li>
+            <li><a href="{{site.baseurl}}/menu.html" class="{% if page.url == '/menu.html' %}current{% endif %}">Menu</a></li>
+            <li><a href="{{site.baseurl}}/contact.html" class="{% if page.url == '/contact.html' %}current{% endif %}">Contact</a></li>
+        </ul>
+    </nav>
+    
+</header>
